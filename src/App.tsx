@@ -536,7 +536,7 @@ export default function App() {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="min-h-screen font-sans selection:bg-emerald-100 selection:text-emerald-900 bg-stone-50">
         {/* Hero Section */}
         <header className="relative py-20 px-6 overflow-hidden bg-white border-b border-stone-100">
